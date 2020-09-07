@@ -1,0 +1,28 @@
+{
+  "name": "api-node-knex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italolopes9/api-node-knex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/italolopes9/api-node-knex/issues"
+  },
+  "homepage": "https://github.com/italolopes9/api-node-knex#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.5",
+    "pg": "^8.3.3"
+  }
+}
