@@ -31,7 +31,7 @@ module.exports = {
                 .update({ username })
                 .where({ id })
 
-            return res.send();
+            return res.send("Usuário editado com sucesso!");
 
         } catch (error) {
             next(error)
@@ -45,7 +45,7 @@ module.exports = {
             .where({ id })
             .del()
 
-            return res.send();
+            return res.send("Usuário deletado com sucesso!");
         } catch (error) {
             next(error)
         }
